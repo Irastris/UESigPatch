@@ -23,7 +23,7 @@ const char* GetPatternFromExecutableName() {
 	if (path == "CartOfGlory-Win64-Shipping.exe") return		"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D 05 1C D7 03 BA 08 01 00 00";
 	if (path == "darkhours-Win64-Shipping.exe") return			"48 83 EC 28 8B 0D 5A 17 DA 07 65 48 8B 04 25 58 00 00 00 BA EC 0E 00 00";
 	if (path == "Genesis-Win64-Shipping.exe") return			"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D FD E2 41 04 BA 08 01 00 00";
-	if (path == "MK12.exe") return								"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D C5 E4 70 05 BA 40 01 00 00";
+	if (path == "MK12.exe") return								"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D A5 35 80 05 BA 40 01 00 00";
 	if (path == "ProjectBakery-Win64-Shipping.exe") return		"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D 69 6C 7E 06 BA 6C 0E 00 00";
 	if (path == "QuidditchChampions-Win64-Shipping.exe") return	"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D 2D 71 E7 04 BA 58 01 00 00";
 	if (path == "Sifu-Win64-Shipping.exe") return				"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D A5 BE 08 04 BA 68 02 00 00";
