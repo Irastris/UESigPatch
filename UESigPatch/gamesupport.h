@@ -28,6 +28,7 @@ const char* GetPatternFromExecutableName() {
 	if (path == "QuidditchChampions-Win64-Shipping.exe") return	"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D 2D 71 E7 04 BA 58 01 00 00";
 	if (path == "Sifu-Win64-Shipping.exe") return				"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D A5 BE 08 04 BA 68 02 00 00";
 	if (path == "SparkingZERO-Win64-Shipping.exe") return		"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D 4D 06 EE 05 BA 0C 08 00 00";
+	if (path == "YKS-Win64-Shipping.exe") return				"48 83 EC 28 65 48 8B 04 25 58 00 00 00 8B 0D 75 1C 39 05 BA BC 06 00 00";
 
 	return NULL;
 }
